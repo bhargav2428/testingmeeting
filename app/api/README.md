@@ -9,7 +9,7 @@ The `API_KEY` is defined in the `app/src/config.js`, change it with your own.
 ```js
 api: {
     // app/api
-    keySecret: 'mirotalksfu_default_secret',
+    keySecret: 'apt install -y curl dirmngr apt-transport-https lsb-release ca-certificates_default_secret',
 }
 ```
 
