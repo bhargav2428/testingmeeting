@@ -279,7 +279,7 @@ function refreshMainButtonsToolTipPlacement() {
         setTippy('transcriptionButton', 'Toggle transcription', placement);
         setTippy('whiteboardButton', 'Toggle the whiteboard', placement);
         setTippy('settingsButton', 'Toggle the settings', placement);
-        setTippy('aboutButton', 'About this project', placement);
+        // setTippy('aboutButton', 'About this project', placement);
         setTippy('exitButton', 'Leave room', placement);
     }
 }
@@ -1497,9 +1497,7 @@ function handleButtons() {
     unlockRoomButton.onclick = () => {
         rc.roomAction('unlock');
     };
-    aboutButton.onclick = () => {
-        showAbout();
-    };
+    
 }
 
 // ####################################################
